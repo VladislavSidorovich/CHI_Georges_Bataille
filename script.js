@@ -1186,7 +1186,7 @@ App.prototype.onSearchClick1 = function (searchTerm) {
                 let excerpt = result.excerpt.trim().replace(/^(\.\.\.|\s)+/, '');
 
                 resultEl.innerHTML = `
-                    <a href="${result.cfi}" class="result-link">${excerpt}</a>
+                    <a href="${result.cfi}" class="result-link">(1) <…> Друг мой, меня часто порицают за те «безобразия и кощунства» </a>
                 `;
                 resultEl.querySelector(".result-link").addEventListener("click", this.onResultClick.bind(this, result.cfi));
                 container.appendChild(resultEl);
@@ -1210,7 +1210,7 @@ App.prototype.onSearchClick2 = function (searchTerm) {
                 let excerpt = result.excerpt.trim().replace(/^(\.\.\.|\s)+/, '');
 
                 resultEl.innerHTML = `
-                    <a href="${result.cfi}" class="result-link">${excerpt}</a>
+                    <a href="${result.cfi}" class="result-link">(2) Скажу тебе, что это выдумки. Приводящие такой аргумент явно заблуждаются</a>
                 `;
                 resultEl.querySelector(".result-link").addEventListener("click", this.onResultClick.bind(this, result.cfi));
                 container.appendChild(resultEl);
@@ -1234,7 +1234,7 @@ App.prototype.onSearchClick3 = function (searchTerm) {
             let excerpt = result.excerpt.trim().replace(/^(\.\.\.|\s)+/, '');
 
             resultEl.innerHTML = `
-                <a href="${result.cfi}" class="result-link">${excerpt}</a>
+                <a href="${result.cfi}" class="result-link">(3) Если принять это различение между телом и биологией, мы быстро поймем</a>
             `;
             resultEl.querySelector(".result-link").addEventListener("click", this.onResultClick.bind(this, result.cfi));
             container.appendChild(resultEl);
@@ -1254,7 +1254,7 @@ App.prototype.onSearchClick4 = function (searchTerm) {
             let excerpt = result.excerpt.trim().replace(/^(\.\.\.|\s)+/, '');
 
             resultEl.innerHTML = `
-                <a href="${result.cfi}" class="result-link">${excerpt}</a>
+                <a href="${result.cfi}" class="result-link">(4) Главное, что меня привлекает в попытках осуществить трансгрессивные переходы в разных сферах</a>
             `;
             resultEl.querySelector(".result-link").addEventListener("click", this.onResultClick.bind(this, result.cfi));
             container.appendChild(resultEl);
@@ -1273,7 +1273,7 @@ App.prototype.onSearchClick5 = function (searchTerm) {
             let excerpt = result.excerpt.trim().replace(/^(\.\.\.|\s)+/, '');
 
             resultEl.innerHTML = `
-                <a href="${result.cfi}" class="result-link">${excerpt}</a>
+                <a href="${result.cfi}" class="result-link">(5) Это очевидная, на мой взгляд, вещь, но только люди</a>
             `;
             resultEl.querySelector(".result-link").addEventListener("click", this.onResultClick.bind(this, result.cfi));
             container.appendChild(resultEl);
